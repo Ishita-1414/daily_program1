@@ -1,5 +1,5 @@
 #include<iostream>
-#include<conio.h>
+//#include<conio.h>
 using namespace std;
 float power(int,int);
 int main()
@@ -11,7 +11,8 @@ int main()
 	cin>>r;
 	float ans=power(b,r);
 	cout<<"The answer is "<<ans<<endl;
-	getch();
+	cout<<" ";
+	//getch();
 	return 0;
 }
 float power(int a,int n)
